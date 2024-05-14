@@ -6,4 +6,4 @@ Descriptor:
 SkillGroups:
   - Format: API
     Settings:
-      OpenApiSpecUrl:
+      OpenApiSpecUrl: https://github.com/drknite72/Copilot4Sec/blob/main/API-IPWhois/API-IPWhois-OAPI.yaml
