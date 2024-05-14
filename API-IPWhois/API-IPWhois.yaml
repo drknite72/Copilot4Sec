@@ -1,0 +1,9 @@
+Descriptor:
+  Name: Virus Total IP Lookup
+  DisplayName: Virus Total IP Lookup
+  Description: Get detailed information from Virus Total about an IP Address.
+  
+SkillGroups:
+  - Format: API
+    Settings:
+      OpenApiSpecUrl:

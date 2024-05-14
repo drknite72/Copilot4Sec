@@ -1,0 +1,27 @@
+openapi: 3.0.0
+
+info:
+    title: IPWhois
+    description: IPWhois api lookup
+    version: "0.1"
+
+servers:
+    - url: http://ipwho.is/
+
+paths:
+    /IP:
+        get:
+            operationId: IPwhois
+            summary: Get IP details
+            parameters:
+                - in: query
+                  name: IP
+                  schema:
+                      type: string
+                  required: true
+                  description: IP details
+            responses:
+                "200":
+                    description: OK
+                       content:
+                        application/json:
