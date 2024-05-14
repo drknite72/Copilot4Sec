@@ -1,7 +1,7 @@
 Descriptor:
-  Name: Virus Total IP Lookup
-  DisplayName: Virus Total IP Lookup
-  Description: Get detailed information from Virus Total about an IP Address.
+  Name: IPWhois
+  DisplayName: IPWhois
+  Description: IPWhois api lookup
   
 SkillGroups:
   - Format: API
